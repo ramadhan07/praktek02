@@ -7,6 +7,8 @@ public class penjualansepatuaksi {
         r1.harga_sepatu = 350000;
         r1.jumlah_barang = 4;
         
+        r1.cetakInfo();
+        
         
     }
 }
