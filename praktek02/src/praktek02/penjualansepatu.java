@@ -10,4 +10,10 @@ public class penjualansepatu {
         System.out.println("harga sepatu :"+jumlah_barang);
         System.out.println("============================");
     }
+    
+    Integer hitungpenjualan(){
+        int total;
+        total=harga_sepatu*jumlah_barang;
+        return total;
+    }
 }

@@ -8,7 +8,7 @@ public class penjualansepatuaksi {
         r1.jumlah_barang = 4;
         
         r1.cetakInfo();
-        
-        
+        System.out.println("total   =   "+r1.hitungpenjualan());
+        r1.cetakInfo();
     }
 }
