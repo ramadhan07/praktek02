@@ -16,4 +16,8 @@ public class penjualansepatu {
         total=harga_sepatu*jumlah_barang;
         return total;
     }
+    void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungpenjualan());
+        
+    }
 }
