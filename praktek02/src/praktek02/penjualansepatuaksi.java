@@ -9,6 +9,12 @@ public class penjualansepatuaksi {
         
         r1.cetakInfo();
         System.out.println("total   =   "+r1.hitungpenjualan());
-        r1.cetakInfo();
+        r1.cetaktotal();
+        
+        penjualansepatu r2 = new penjualansepatu();
+        r2.cetakInfo();
+        
+        penjualansepatu r3 = new penjualansepatu(350000,4);
+        r3.cetakInfo();
     }
 }

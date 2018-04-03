@@ -4,6 +4,12 @@ public class penjualansepatu {
     int harga_sepatu;
     int jumlah_barang;
 
+    public penjualansepatu(int harga_sepatu, int jumlah_barang) {
+        this.harga_sepatu = harga_sepatu;
+        this.jumlah_barang = jumlah_barang;
+    }
+
+    
     public penjualansepatu() {
         this.harga_sepatu = 350000;
         this.jumlah_barang = 4;
